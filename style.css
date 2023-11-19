@@ -1,0 +1,175 @@
+body{
+    background-color: bisque;
+}
+ul{
+    padding: 0%;
+    margin: 0%;
+position: relative;
+
+}
+.form{
+    color: red;
+    background-color: rgb(255, 200, 0);
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: large;
+  /*  float: right; */
+}
+
+/* Header */
+
+header{
+    background:whitesmoke;
+    color: blanchedalmond;
+    padding-top: 1px; ;
+    min-height: 20px;
+    border-bottom:#ff0088 5px solid;
+}
+header a{
+    color: purple;
+    font-size: large;
+    padding-right: 20px;
+    text-decoration: solid;
+    text-transform: uppercase;
+}
+header h1{
+    color: palevioletred;
+    font-style: italic;
+}
+header li{
+    float: left;
+    padding: 10px 0px 10px 0px;
+    display: block;
+    margin-top: 0px;
+text-align: center;}
+
+header nav{
+    float: right;
+    margin-top: 5px;
+    padding-left: 5px;
+}
+header .current a{
+    color: #ff2222;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+/* boxes */
+#boxes{
+    margin-top:20px;
+}
+#boxes .box{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+    position: relative;
+    padding-right: 30px;
+}
+img{
+    height: 300px;
+    width: 300px;
+    padding-right: 20px;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+#boxes .box .par{
+    text-align: center;
+    color: yellow;
+    font-size: large;
+    background-color: blue;
+    border-radius: 20px;
+    height: 200px;
+    width: 400px;
+    padding-top: 20px;
+
+}
+#boxes .box .park{
+    text-align: center;
+    color: red;
+    font-size: large;
+    background-color: greenyellow;
+    border-radius: 20px;
+    height: 250px;
+    width: 400px;
+    padding-top: 20px;
+}
+#boxes .box .bar{
+    text-align: center;
+    color: blue;
+    font-size: large;
+    background-color:wheat;
+    border-radius: 20px;
+    height: 250px;
+    width: 400px;
+    padding-top: 20px;
+
+}
+#boxes .box .bark{
+    text-align: center;
+    color: brown;
+    font-size: large;
+    background-color:yellow;
+    border-radius: 20px;
+    height: 250px;
+    width: 400px;
+    padding-top: 20px;
+
+}
+#boxes .box .barke{
+    text-align: center;
+    color: black;
+    font-size: large;
+    background-color:wheat;
+    border-radius: 20px;
+    height: 250px;
+    width: 400px;
+    padding-top: 20px;
+
+}
+.myself{
+    text-align: center;
+    font-weight: 900;
+    font-style: italic;
+    color: #ff0088;
+    background-color: aquamarine;
+}
+
+/* Global */
+.container{
+    width:80%;
+    margin: 10px;
+    overflow:hidden;
+}
+h2{
+    color: #ff0088;
+    font-style: oblique;
+}
+footer{
+    font-size: larger;
+    text-decoration: #ff0088;
+    text-align: center;
+    text-decoration: solid;
+    background-color: red;
+    padding-top: 0px;
+  /*  float: inline-end; */
+  float: initial;
+}
+.form .input .message{
+    width: 20px;
+    height: 20px;
+}
+ 
+button{
+    color: red;
+    background-color: blue;
+    font-size: larger;
+    border-radius: 20px;
+    width: 250px;
+    height: 40px;
+}
